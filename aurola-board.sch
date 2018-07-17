@@ -6762,6 +6762,20 @@ Allows current flow when high potential at base.</description>
 <wire x1="279.4" y1="241.3" x2="287.02" y2="241.3" width="0.1524" layer="91"/>
 <junction x="287.02" y="241.3"/>
 </segment>
+<segment>
+<pinref part="C28" gate="G$1" pin="+"/>
+<wire x1="464.82" y1="375.92" x2="464.82" y2="383.54" width="0.1524" layer="91"/>
+<pinref part="F1" gate="F" pin="1"/>
+<wire x1="464.82" y1="383.54" x2="474.98" y2="383.54" width="0.1524" layer="91"/>
+<pinref part="D3" gate="D" pin="C"/>
+<wire x1="474.98" y1="383.54" x2="477.52" y2="383.54" width="0.1524" layer="91"/>
+<wire x1="474.98" y1="375.92" x2="474.98" y2="383.54" width="0.1524" layer="91"/>
+<junction x="474.98" y="383.54"/>
+<wire x1="454.66" y1="383.54" x2="464.82" y2="383.54" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="1"/>
+<wire x1="454.66" y1="375.92" x2="454.66" y2="383.54" width="0.1524" layer="91"/>
+<label x="454.66" y="383.54" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -7408,6 +7422,11 @@ Allows current flow when high potential at base.</description>
 <wire x1="482.6" y1="220.98" x2="482.6" y2="223.52" width="0.1524" layer="91"/>
 <label x="482.6" y="220.98" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="MCU" pin="PA3"/>
+<wire x1="127" y1="233.68" x2="137.16" y2="233.68" width="0.1524" layer="91"/>
+<label x="137.16" y="233.68" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -7762,21 +7781,6 @@ Allows current flow when high potential at base.</description>
 <pinref part="F1" gate="F" pin="2"/>
 </segment>
 </net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="C28" gate="G$1" pin="+"/>
-<wire x1="464.82" y1="375.92" x2="464.82" y2="383.54" width="0.1524" layer="91"/>
-<pinref part="F1" gate="F" pin="1"/>
-<wire x1="464.82" y1="383.54" x2="474.98" y2="383.54" width="0.1524" layer="91"/>
-<pinref part="D3" gate="D" pin="C"/>
-<wire x1="474.98" y1="383.54" x2="477.52" y2="383.54" width="0.1524" layer="91"/>
-<wire x1="474.98" y1="375.92" x2="474.98" y2="383.54" width="0.1524" layer="91"/>
-<junction x="474.98" y="383.54"/>
-<wire x1="454.66" y1="383.54" x2="464.82" y2="383.54" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="1"/>
-<wire x1="454.66" y1="375.92" x2="454.66" y2="383.54" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="R28" gate="G$1" pin="1"/>
@@ -7789,6 +7793,18 @@ Allows current flow when high potential at base.</description>
 <pinref part="R29" gate="G$1" pin="2"/>
 <pinref part="D5" gate="G$1" pin="2"/>
 <wire x1="391.16" y1="218.44" x2="391.16" y2="231.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EC_INT" class="0">
+<segment>
+<pinref part="IC1" gate="MCU" pin="PB6"/>
+<wire x1="127" y1="284.48" x2="137.16" y2="284.48" width="0.1524" layer="91"/>
+<label x="137.16" y="284.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IO14"/>
+<wire x1="302.26" y1="144.78" x2="292.1" y2="144.78" width="0.1524" layer="91"/>
+<label x="292.1" y="144.78" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
