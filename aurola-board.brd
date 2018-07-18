@@ -2441,10 +2441,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="FAN_PWM">
 <contactref element="R19" pad="1"/>
 <contactref element="IC1" pad="14"/>
-<wire x1="21.554" y1="12.124" x2="21.5088" y2="12.0788" width="0.254" layer="1"/>
-<wire x1="21.5088" y1="12.0788" x2="21.5088" y2="11.39775" width="0.254" layer="1"/>
-<wire x1="21.5088" y1="11.39775" x2="20.65205" y2="10.541" width="0.254" layer="1"/>
-<wire x1="20.65205" y1="10.541" x2="20.066" y2="10.541" width="0.254" layer="1"/>
 <via x="20.066" y="10.541" extent="1-16" drill="0.3"/>
 <wire x1="20.066" y1="10.541" x2="20.574" y2="10.541" width="0.254" layer="16"/>
 <wire x1="20.574" y1="10.541" x2="21.59" y2="11.557" width="0.254" layer="16"/>
@@ -2456,6 +2452,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="50.8" y1="28.194" x2="51.689" y2="27.305" width="0.254" layer="16"/>
 <wire x1="51.689" y1="20.828" x2="51.702" y2="20.815" width="0.254" layer="1"/>
 <wire x1="51.702" y1="20.815" x2="53.34" y2="20.815" width="0.254" layer="1"/>
+<wire x1="21.554" y1="12.124" x2="21.554" y2="11.2426625" width="0.254" layer="1"/>
+<wire x1="20.8523375" y1="10.541" x2="20.066" y2="10.541" width="0.254" layer="1"/>
+<wire x1="21.554" y1="11.2426625" x2="20.8523375" y2="10.541" width="0.254" layer="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="J3" pad="4"/>
