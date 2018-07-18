@@ -2381,9 +2381,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="PWM3">
 <contactref element="IC1" pad="31"/>
 <contactref element="R27" pad="1"/>
-<wire x1="11.443" y1="10.16" x2="12.192" y2="9.411" width="0.254" layer="1"/>
-<wire x1="12.192" y1="9.411" x2="12.192" y2="8.382" width="0.254" layer="1"/>
-<wire x1="12.192" y1="8.382" x2="12.95" y2="7.624" width="0.254" layer="1"/>
+<wire x1="11.443" y1="10.16" x2="12.319" y2="9.284" width="0.254" layer="1"/>
+<wire x1="12.319" y1="9.284" x2="12.319" y2="8.255" width="0.254" layer="1"/>
+<wire x1="12.319" y1="8.255" x2="12.95" y2="7.624" width="0.254" layer="1"/>
 <wire x1="12.95" y1="7.624" x2="15.054" y2="7.624" width="0.254" layer="1"/>
 </signal>
 <signal name="PWM4">
