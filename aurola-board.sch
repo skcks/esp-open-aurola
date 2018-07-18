@@ -1890,6 +1890,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.5" y1="-1.5" x2="4.2" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="4.2" y1="-1.5" x2="4.2" y2="1.5" width="0.127" layer="21"/>
 <wire x1="4.2" y1="1.5" x2="-0.5" y2="1.5" width="0.127" layer="21"/>
+<text x="-1.27" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1902,7 +1904,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2.54" y1="-3.81" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
 <pin name="2.XOUT" x="0" y="-8.89" visible="pad" length="middle" rot="R90"/>
 <pin name="1.XIN" x="0" y="5.08" visible="pad" length="middle" rot="R270"/>
-<text x="5.08" y="-10.16" size="1.778" layer="94" rot="R90">NX5032CA-8MHZ</text>
+<text x="-5.08" y="-5.08" size="1.27" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-5.08" size="1.27" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1933,6 +1936,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.95" y1="0.9" x2="2.95" y2="-0.9" width="0.127" layer="21"/>
 <wire x1="2.95" y1="-0.9" x2="-0.45" y2="-0.9" width="0.127" layer="21"/>
 <wire x1="-0.45" y1="-0.9" x2="-0.45" y2="0.9" width="0.127" layer="21"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1945,7 +1950,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
 <pin name="2.XIN" x="0" y="-6.35" visible="pad" length="middle" rot="R90"/>
 <pin name="1.XIN" x="0" y="7.62" visible="pad" length="middle" rot="R270"/>
-<text x="5.08" y="-10.16" size="1.778" layer="94" rot="R90">32.768KHZ-FC-135</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="7.62" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6674,7 +6680,7 @@ Allows current flow when high potential at base.</description>
 <attribute name="VALUE" x="495.554" y="218.694" size="1.016" layer="96"/>
 </instance>
 <instance part="BAT1" gate="G$1" x="193.04" y="182.88" rot="MR90"/>
-<instance part="Y1" gate="G$1" x="73.66" y="185.42" rot="R90"/>
+<instance part="Y1" gate="G$1" x="73.66" y="185.42" smashed="yes" rot="R90"/>
 <instance part="Y2" gate="G$1" x="134.62" y="185.42" smashed="yes" rot="R90"/>
 <instance part="C2" gate="G$1" x="63.5" y="177.8" rot="R90"/>
 <instance part="C3" gate="G$1" x="86.36" y="177.8" rot="R90"/>
