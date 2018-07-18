@@ -4,7 +4,7 @@
         "name": "Chen Ks"
     },
     "description": {
-        "EN": "this cam file used for esp-open-lightctl only"
+        "EN": "this cam file used for esp-open-aurola only"
     },
     "output_type": "directory",
     "outputs": [
@@ -247,7 +247,7 @@
             "version": "RS274X"
         }
     ],
-    "timestamp": "2018-07-18T21:45:20",
+    "timestamp": "2018-07-19T00:02:02",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "8.6.1"
